@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/style.css">
+   <style>
+      #loading {
+         width: 50px;
+         height: 50px;
+         border: solid 5px #ccc;
+         border-top-color: #066ee6;
+         border-radius: 100%;
+         position: fixed;
+         position: absolute;
+         z-index: 999;
+         left: 0;
+         right: 0;
+         top: 0;
+         bottom: 0;
+         margin: auto;
+         animation: putar 2s linear infinite;
+      }
+
+      @keyframes putar {
+         from {
+            transform: rotate(0deg);
+         }
+
+         to {
+            transform: rotate(360deg);
+         }
+      }
+   </style>
+
+   <title>Ecomerce-Landing</title>
+</head>
+
+
+<body>
+   <div id="loading"></div>
+   <nav>
+      <div class="nav-toggle">
+         <h1>STC.Programming</h1>
+      </div>
+      <div class="nav-link">
+         <div class="img-margin-nav"><img src="../assets/ilustration/service.png" width="30px" alt=""></div>
+         <a href="#">Home</a>
+         <div class="img-margin-nav"><img src="../assets/ilustration/service3.png" width="30px" alt=""></div>
+         <a href="#">Service</a>
+         <div class="img-margin-nav"><img src="../assets/ilustration/order2.png" width="30px" alt=""></div>
+         <a href="#"> Order</a>
+         <div class="img-margin-nav"><img src="../assets/ilustration/keranjang.png" width="30px" alt=""></div>
+         <a> My Cart | </a>
+         <div class="img-cart">
+            <p>40</p>
+         </div>
+         <button type="submit" class="nav-button">Login</button>
+      </div>
+   </nav>
+   <div class="container">
+      <section class="hero-1">
+         <div class="img-hero">
+            <img src="../assets/ilustration/sepatubaru.png" width="500px" alt="">
+         </div>
+         <div class="title-hero2">
+            <table class="cart-cek">
+               <tr>
+                  <th>Nama</th>
+                  <td> : Sepatu Convers</td>
+               </tr>
+               <tr>
+                  <th>Harga</th>
+                  <td> : Rp.150.000</td>
+               </tr>
+               <tr>
+                  <th>Jumlah </th>
+                  <td> : <input type="number"></td>
+               </tr>
+               <tr>
+                  <th>Total </th>
+                  <td> : Rp.300.000</td>
+               </tr>
+            </table>
+            <div class="button-hero">
+               <button class="nav-button24"> <a href="pembayaran.html">Cancel</a></button>
+               <button class="nav-button23"> <a href="pembayaran.html">Order Now </a> </button>
+            </div>
+         </div>
+      </section>
+      <section class="content3">
+         <div class="card2">
+            <img src="../assets/ilustration/sepatubaru.png" width="100%" alt="">
+            <p>Deskripsi</p>
+            <p>Rating</p>
+            <p>Harga</p>
+         </div>
+      </section>
+   </div>
+</body>
+<script>
+   $(window).load(function () { $(" #loading").delay(3000).fadeOut("slow"); }) </script>
+
+</html>

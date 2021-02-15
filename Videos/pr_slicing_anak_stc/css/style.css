@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+.container{
+   padding-left:3%;
+   padding-right: 3%;
+}
+body{
+   margin: 0;
+   font-family: "Viga",sans-serif;
+   color: black;
+}
+.nav-link{
+   display: flex;
+   align-items: center;
+}
+nav{
+   
+   color: white;
+   padding-top: 10px;
+   padding-left: 10%;
+   padding-right: 10%;
+   display: flex;
+   justify-content: space-between;
+   background-image: linear-gradient(to top,rgba(33, 65, 248, 0.5),rgba(6, 170, 211, 0.685));
+   box-shadow: 1px 1px 5px 0.3px rgb(7, 226, 233);
+}
+.nav-link a{
+   text-decoration: none;
+   padding-right: 10px;
+   font-family: "Viga",sans-serif;
+   color: white;
+}
+.img-margin-nav{
+   margin-right: 5px;
+}
+.nav-button{
+   font-size: 20px;
+   color: white;
+   font-family: "viga",sans-serif;
+   border: none;
+   width: 200px;
+   height: 50px;
+   border-radius: 40px;
+   background-image: linear-gradient(to top,rgba(248, 148, 33, 0.5),rgba(207, 211, 6, 0.945));
+   box-shadow: 1px 1px 5px 0.3px rgb(7, 226, 233);
+}
+
+.img-cart{
+   color: white;
+   background-image: linear-gradient(to top,rgba(248, 148, 33, 0.959),rgba(207, 211, 6, 0.685));
+   border-radius: 30%;
+   width: 40px;
+   margin-right: 10px;
+   height: 30px;
+}
+.img-cart p{
+   margin-top:4px;
+   margin-left: 8px;
+}
+
+/* hero landing */
+
+section.hero-1{
+   display: flex;
+   justify-content: space-between;
+}
+.title-hero{
+  
+   margin-top: 70px;
+   font-size: 30px;
+   color: black;
+}
+.title-hero2{
+   width: 400px;
+   margin-right: 100px;
+   margin-top: 70px;
+   font-size: 17px;
+   color: black;
+}
+.title-hero span{
+   color: grey;
+   opacity: 0.7;
+   font-size: 20px;
+}
+.title-hero2 span{
+   color: grey;
+   opacity: 0.7;
+   font-size: 10px;
+}
+.title-hero h1{
+   color: black;
+   text-shadow: 4px 2px 2px rgba(9, 83, 83, 0.575);
+}
+.button-hero{
+   margin-top: 40px;
+   margin-right: 20px;
+   float: right;
+}
+
+.nav-button-1{
+   font-size: 20px;
+   color: white;
+   font-family: "viga",sans-serif;
+   margin-right: 20px;
+   border: none;
+   width: 200px;
+   height: 50px;
+   border-radius: 40px;
+   background-image: linear-gradient(to top,rgba(248, 148, 33, 0.5),rgba(207, 211, 6, 0.945));
+   box-shadow: 1px 1px 5px 0.3px rgb(7, 226, 233);
+}
+/* pembatas */
+section.content{
+   padding-left: 47%;
+   padding-right: 47%;
+}
+
+/* content */
+.card{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+   max-width: 250px;
+   margin-right: 20px;
+   margin-top: 20px;
+   background-image: linear-gradient(to top,rgba(33, 65, 248, 0.5),rgba(6, 170, 211, 0.685));
+}
+.card p{
+ padding: 10px;
+}
+
+.card .img-1{
+   width: 100%;
+   margin-top: 10px;
+}
+/* rating */
+.rating{
+   margin-left: 10px;
+}
+.nav-button2{
+   font-size: 20px;
+   color: white;
+   font-family: "viga",sans-serif;
+   border: none;
+   width: 100%;
+   height: 50px;
+   background-image: linear-gradient(to top,rgba(119, 66, 4, 0.5),rgba(207, 211, 6, 0.945));
+   box-shadow: 1px 1px 5px 0.3px rgb(7, 226, 233);
+}
+section.content2{
+   padding-left: 7%;
+   display: flex;
+   flex-wrap: wrap;
+}
+.card2{
+   padding: 3%;
+   max-width: 250px;
+   box-shadow: 1px 1px 5px 0.7px black;
+
+}
+.nav-button23 a{
+   text-decoration: none;
+   color: white;
+}
+.nav-button23{
+  
+   font-size: 20px;
+   color: white;
+   font-family: "viga",sans-serif;
+   border: none;
+   width: 100%;
+   height: 50px;
+   background-image: linear-gradient(to top,rgba(69, 190, 45, 0.5),rgba(85, 99, 9, 0.945));
+   box-shadow: 1px 1px 5px 0.3px rgb(7, 226, 233);
+}
+.nav-button24 a{
+   text-decoration: none;
+   color: white;
+}
+.nav-button24{
+  margin-bottom: 20px;
+   font-size: 20px;
+   color: white;
+   font-family: "viga",sans-serif;
+   border: none;
+   width: 100%;
+   height: 50px;
+   background-image: linear-gradient(to top,rgba(119, 4, 4, 0.5),rgba(9, 43, 32, 0.945));
+   box-shadow: 1px 1px 5px 0.3px rgb(7, 226, 233);
+}
+.footer{
+
+   left: 0;
+   bottom: 0;
+   height: 40px;
+   width: 100%;
+  background-color: black;
+   color: white;
+   text-align: center;
+}
+/* add to cart */
+input,[number]{
+   color: black;
+   font-family: "viga",sans-serif;
+   width: 100px;
+   height: 20px;
+   border: none;
+   box-shadow: 1px 1px 5px 0.3px rgb(6, 10, 10);
+}
+table{
+   width: 500px;
+   margin-left: 0;
+}
+th{
+   padding-top: 10px;
+}
